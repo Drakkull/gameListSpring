@@ -43,4 +43,15 @@ public class GameMinDTO {
     public String getShortDescription() {
         return shortDescription;
     }
+
+    @Override
+    public String toString() {
+        return "GameMinDTO{" +
+                "id: " + id +
+                ", title='" + title + '\'' +
+                ", year=" + year +
+                ", imgUrl='" + imgUrl + '\'' +
+                ", shortDescription='" + shortDescription + '\'' +
+                '}';
+    }
 }
