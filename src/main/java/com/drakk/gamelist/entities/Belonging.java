@@ -26,6 +26,7 @@ public class Belonging {
     }
 
     public BelongingPK getId() {
+
         return id;
     }
 
