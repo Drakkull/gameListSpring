@@ -4,6 +4,7 @@ import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
+import javax.xml.crypto.dsig.spec.HMACParameterSpec;
 import java.util.Objects;
 
 @Embeddable
@@ -54,4 +55,7 @@ public class BelongingPK {
     public int hashCode() {
         return Objects.hash(game, list);
     }
+    //Get back!
+
+
 }
